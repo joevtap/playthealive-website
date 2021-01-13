@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="style/go-top.css" />
         <link rel="stylesheet" href="style/modal.css" />
         <link rel="stylesheet" href="style/card-talentos.css" />
+        <link rel="stylesheet" href="style/talentos-container.css" />
 
         <!-- scripts -->
         <script
@@ -62,8 +63,8 @@
                     </label>
                 </ul>
             </nav>
-            <h2>A primeira agência de idols virtuais no Brasil</h2>
-            <h1>Play The aLive</h1>
+            <h2 class="heading">A primeira agência de idols virtuais no Brasil</h2>
+            <h1 class="heading">Play The aLive</h1>
         </header>
         <main>
             <a href="#home" id="goTop" title="Go to top"
@@ -87,12 +88,372 @@
                 </svg>
             </a>
             <section class="talentos" id="talentos">
-                <h2>Lorem, ipsum.</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Reiciendis iusto aut illo consequatur aliquam? Sit natus
-                    praesentium culpa dolor repudiandae.
-                </p>
+                <h2 class="heading" >Nossos Talentos</h2>
+                <div class="container-fluid">
+                    <!-- Mayu -->
+                    <div
+                        class="card shadow p-3 mb-5 rounded"
+                        data-bs-toggle="modal"
+                        data-bs-target="#talentoModalMayu"
+                    >
+                        <img src="img/Mayu-262x300.png" alt="mayu" />
+                        <p>Mayu Mitsubi</p>
+                    </div>
+                    <div
+                        class="modal fade"
+                        id="talentoModalMayu"
+                        tabindex="-1"
+                        aria-labelledby="talentoModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-lg modal-dialog-centered"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img
+                                        src="img/Mayu-262x300.png"
+                                        alt="mayu"
+                                    />
+                                    <div class="description">
+                                        <h2>Mayu Mitsubi</h2>
+                                        <p class="specs">Altura: 170cm</p>
+                                        <p class="specs">Idade: 18</p>
+                                        <p class="lh-base text-wrap text-start">
+                                            Mayu é uma garota normal da área
+                                            urbana, e nas horas que não está
+                                            ocupada trabalhando: caçando e
+                                            devorando Raimus (pequenos demônios
+                                            feitos de Slime), fica no computador
+                                            jogando diversos games, tiltando
+                                            (óbvio) e se estressando com
+                                            desenhos… “sou de boa, bele?” –
+                                            Mitsubi, Mayu.
+                                        </p>
+                                        <div class="links">
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitter"
+                                                    ></i></span
+                                            ></a>
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitch"
+                                                    ></i></span
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Oceane -->
+                    <div
+                        class="card shadow p-3 mb-5 rounded"
+                        data-bs-toggle="modal"
+                        data-bs-target="#talentoModalOceane"
+                    >
+                        <img src="img/Oceane menor2.png" alt="oceane" />
+                        <p>Oceane Korin</p>
+                    </div>
+                    <div
+                        class="modal fade"
+                        id="talentoModalOceane"
+                        tabindex="-1"
+                        aria-labelledby="talentoModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-lg modal-dialog-centered"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img
+                                        src="img/Oceane menor.png"
+                                        alt="oceane"
+                                    />
+                                    <div class="description">
+                                        <h2>Oceane Korin</h2>
+                                        <p class="specs">Altura: 163cm</p>
+                                        <p class="specs">Idade: 200</p>
+                                        <p class="lh-base text-wrap text-start">
+                                            Trazida pelas ondas do mar, Oceane é o espírito benevolente que acolhe aqueles que morrem no mar. Apaixonada pelo mundo humano e suas artes, ela é nascida da crença dos homens pelas sereias e entidades marítimas.
+                                            Não se sabe ao certo se ela é mais próxima dos peixes ou das criaturas místicas em si, o que realmente importa é que, sua extrema afeição pelas pessoas a fez, durante muitos anos, treinar até atingir a aparência mais humana que conseguiu.
+                                        </p>
+                                        <div class="links">
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitter"
+                                                    ></i></span
+                                            ></a>
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitch"
+                                                    ></i></span
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Purin -->
+                    <div
+                        class="card shadow p-3 mb-5 rounded"
+                        data-bs-toggle="modal"
+                        data-bs-target="#talentoModalMarin"
+                    >
+                        <img src="img/Marin ajustada.png" alt="marin" />
+                        <p>Marin Purin</p>
+                    </div>
+                    <div
+                        class="modal fade"
+                        id="talentoModalMarin"
+                        tabindex="-1"
+                        aria-labelledby="talentoModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-lg modal-dialog-centered"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body purin">
+                                    <img
+                                        src="img/Marin ajustada.png"
+                                        alt="marin"
+                                    />
+                                    <div class="description">
+                                        <h2>Marin Purin</h2>
+                                        <p class="specs">Altura: 143cm</p>
+                                        <p class="specs">Idade: 100</p>
+                                        <p class="lh-base text-wrap text-start">
+                                            Marin Purin é a princesa de PurinLand, um reino secreto povoado por gatos que normalmente se equilibram em suas duas patas traseiras, ela é uma princesa preguiçosa, mas curiosa e graças a isso descobriu este mundo, se interessando pelas coisas que existem aqui, como os jogos eletronicos, internet e as roupas despojadas e confortáveis, agora ela quer se aproximar do nosso mundo e de nós humanos fazendo streams conversando e jogando.
+                                        </p>
+                                        <div class="links">
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitter"
+                                                    ></i></span
+                                            ></a>
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitch"
+                                                    ></i></span
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Morphilius -->
+                    <div
+                        class="card shadow p-3 mb-5 rounded"
+                        data-bs-toggle="modal"
+                        data-bs-target="#talentoModalMorphilus"
+                    >
+                        <img src="img/Morphilius267.png" alt="morphilus" />
+                        <p>Morphilus</p>
+                    </div>
+                    <div
+                        class="modal fade"
+                        id="talentoModalMorphilus"
+                        tabindex="-1"
+                        aria-labelledby="talentoModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-lg modal-dialog-centered"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body morphilus">
+                                    <img
+                                        src="img/Morphilius267.png"
+                                        alt="morphilus"
+                                    />
+                                    <div class="description">
+                                        <h2>Morphilus</h2>
+                                        <p class="specs">Altura: 155cm</p>
+                                        <p class="specs">Idade: 198</p>
+                                        <p class="lh-base text-wrap text-start">
+                                            Vinda da mitologia nativa americana, a garota wendigo apenas lembra de ter acordado no meio de uma floresta, ao lado de um acampamento abandonado. Morphilus fora resgatada, e sobreviveu com os cuidados de um mago da era vitoriana. Quase 200 anos depois, descoberta pela era da internet, sua estranha aparência e comportamento chamaram atenção e agora ela trabalha com o entretenimento humano, sem deixar as suas origens de lado, mantendo a estética vitoriana em homenagem ao mago que salvou sua vida.
+                                        </p>
+                                        <div class="links">
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitter"
+                                                    ></i></span
+                                            ></a>
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitch"
+                                                    ></i></span
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Izuwumi -->
+                    <div
+                        class="card shadow p-3 mb-5 rounded"
+                        data-bs-toggle="modal"
+                        data-bs-target="#talentoModalIzuwumi"
+                    >
+                        <img src="img/Izuwumi267.png" alt="Izuwumi" />
+                        <p>Izuwumi</p>
+                    </div>
+                    <div
+                        class="modal fade"
+                        id="talentoModalIzuwumi"
+                        tabindex="-1"
+                        aria-labelledby="talentoModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-lg modal-dialog-centered"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body izuwumi">
+                                    <img
+                                        src="img/Izuwumi267.png"
+                                        alt="Izuwumi"
+                                    />
+                                    <div class="description">
+                                        <h2>Izuwumi</h2>
+                                        <p class="specs">Altura: 156cm</p>
+                                        <p class="specs">Idade: ???</p>
+                                        <p class="lh-base text-wrap text-start">
+                                            Izuwumi é uma elfa curiosa e avoada que misteriosamente foi teletransportada para esse mundo. Não se sabe a sua idade, nem sua origem, mas sabemos que ela é muito alegre e amigável. Izuwumi começou a aprender mais do nosso mundo graças a humano que a encontrou e desde então são melhores amigos. Com o tempo ela foi se interessando cada vez mais por jogos eletrônicos e tudo o que o nosso mundo poderia oferecer de entreterimento e que fosse divertido. Foi aí que seu amigo lhe apresentou uma maneira de conversar com vários humanos em um só lugar, fazendo lives
+                                        </p>
+                                        <div class="links">
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitter"
+                                                    ></i></span
+                                            ></a>
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitch"
+                                                    ></i></span
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Heiwa -->
+                    <div
+                        class="card shadow p-3 mb-5 rounded"
+                        data-bs-toggle="modal"
+                        data-bs-target="#talentoModalHeiwa"
+                    >
+                        <img src="img/heiwa267.png" alt="heiwa" />
+                        <p>Okami Heiwa</p>
+                    </div>
+                    <div
+                        class="modal fade"
+                        id="talentoModalHeiwa"
+                        tabindex="-1"
+                        aria-labelledby="talentoModalLabel"
+                        aria-hidden="true"
+                    >
+                        <div
+                            class="modal-dialog modal-lg modal-dialog-centered"
+                        >
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button
+                                        type="button"
+                                        class="btn-close"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div class="modal-body heiwa">
+                                    <img
+                                        src="img/heiwa267.png"
+                                        alt="heiwa"
+                                    />
+                                    <div class="description">
+                                        <h2>Okami Heiwa</h2>
+                                        <p class="specs">Altura: 186cm</p>
+                                        <p class="specs">Idade: 1319</p>
+                                        <p class="lh-base text-wrap text-start">
+                                            Temida pelo povo asgardiano por ser predestinada a matar o deus Odin, acabei acorrentada por anos e anos, consegui fugir e acabei de escondendo nessa forma! hoje estou fugindo de causar o Ragnarok hehew
+                                        </p>
+                                        <div class="links">
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitter"
+                                                    ></i></span
+                                            ></a>
+                                            <a href="#">
+                                                <span
+                                                    ><i
+                                                        class="fab fa-twitch"
+                                                    ></i></span
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="sobre" class="sobre">
                 <h2>Lorem, ipsum.</h2>
@@ -109,67 +470,6 @@
                     Reiciendis iusto aut illo consequatur aliquam? Sit natus
                     praesentium culpa dolor repudiandae.
                 </p>
-                <!-- Card trigger modal -->
-
-                <div
-                    class="card"
-                    data-bs-toggle="modal"
-                    data-bs-target="#talentoModal"
-                ><img src="img/Mayu-262x300.png" alt="mayu"><p>Mayu</p></div>
-
-                <!-- Modal -->
-                <div
-                    class="modal fade"
-                    id="talentoModal"
-                    tabindex="-1"
-                    aria-labelledby="talentoModalLabel"
-                    aria-hidden="true"
-                >
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button
-                                    type="button"
-                                    class="btn-close"
-                                    data-bs-dismiss="modal"
-                                    aria-label="Close"
-                                ></button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="img/Mayu-262x300.png" alt="mayu" />
-                                <div class="description">
-                                    <h2>Mayu</h2>
-                                    <p class="specs">Altura: 170cm</p>
-                                    <p class="specs">Idade: 18</p>
-                                    <p class="lh-base text-wrap text-start">
-                                        Mayu é uma garota normal da área urbana,
-                                        e nas horas que não está ocupada
-                                        trabalhando: caçando e devorando Raimus
-                                        (pequenos demônios feitos de Slime),
-                                        fica no computador jogando diversos
-                                        games, tiltando (óbvio) e se estressando
-                                        com desenhos… “sou de boa, bele?” –
-                                        Mitsubi, Mayu.
-                                    </p>
-                                    <div class="links">
-                                        <a href="#">
-                                            <span
-                                                ><i
-                                                    class="fab fa-twitter"
-                                                ></i></span
-                                        ></a>
-                                        <a href="#">
-                                            <span
-                                                ><i
-                                                    class="fab fa-twitch"
-                                                ></i></span
-                                        ></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
         </main>
         <footer></footer>

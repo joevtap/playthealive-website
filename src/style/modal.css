@@ -7,8 +7,12 @@
     justify-content: space-around;
 }
 
+.modal-body h2 {
+    color: var(--color-headings);
+}
+
 .modal-body img {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .btn-close {
@@ -40,4 +44,16 @@
 }
 .links span:hover {
     color: var(--social-hover);
+}
+
+.morphilus img {
+    min-width: 200px;
+}
+
+.izuwumi img {
+    min-width: 200px;
+}
+
+.purin img {
+    min-width: 230px;
 }
