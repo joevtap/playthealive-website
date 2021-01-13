@@ -16,8 +16,14 @@
         <link rel="stylesheet" href="style/header.css" />
         <link rel="stylesheet" href="style/switch.css" />
         <link rel="stylesheet" href="style/go-top.css" />
+        <link rel="stylesheet" href="style/modal.css" />
+        <link rel="stylesheet" href="style/card-talentos.css" />
 
         <!-- scripts -->
+        <script
+            src="https://kit.fontawesome.com/2c0f90d472.js"
+            crossorigin="anonymous"
+        ></script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -27,7 +33,7 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
             defer
         ></script>
-        <script src="smoothscroll.js" defer></script>
+        <!-- <script src="smoothscroll.js" defer></script> -->
         <script src="themeswitcher.js" defer></script>
         <script src="go-top.js" defer></script>
     </head>
@@ -103,30 +109,25 @@
                     Reiciendis iusto aut illo consequatur aliquam? Sit natus
                     praesentium culpa dolor repudiandae.
                 </p>
-                <!-- Button trigger modal -->
-                <button
-                    type="button"
-                    class="btn btn-primary"
+                <!-- Card trigger modal -->
+
+                <div
+                    class="card"
                     data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                >
-                    Launch demo modal
-                </button>
+                    data-bs-target="#talentoModal"
+                ><img src="img/Mayu-262x300.png" alt="mayu"><p>Mayu</p></div>
 
                 <!-- Modal -->
                 <div
                     class="modal fade"
-                    id="exampleModal"
+                    id="talentoModal"
                     tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
+                    aria-labelledby="talentoModalLabel"
                     aria-hidden="true"
                 >
-                    <div class="modal-dialog">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">
-                                    Modal title
-                                </h5>
                                 <button
                                     type="button"
                                     class="btn-close"
@@ -134,18 +135,37 @@
                                     aria-label="Close"
                                 ></button>
                             </div>
-                            <div class="modal-body">...</div>
-                            <div class="modal-footer">
-                                <button
-                                    type="button"
-                                    class="btn btn-secondary"
-                                    data-bs-dismiss="modal"
-                                >
-                                    Close
-                                </button>
-                                <button type="button" class="btn btn-primary">
-                                    Save changes
-                                </button>
+                            <div class="modal-body">
+                                <img src="img/Mayu-262x300.png" alt="mayu" />
+                                <div class="description">
+                                    <h2>Mayu</h2>
+                                    <p class="specs">Altura: 170cm</p>
+                                    <p class="specs">Idade: 18</p>
+                                    <p class="lh-base text-wrap text-start">
+                                        Mayu é uma garota normal da área urbana,
+                                        e nas horas que não está ocupada
+                                        trabalhando: caçando e devorando Raimus
+                                        (pequenos demônios feitos de Slime),
+                                        fica no computador jogando diversos
+                                        games, tiltando (óbvio) e se estressando
+                                        com desenhos… “sou de boa, bele?” –
+                                        Mitsubi, Mayu.
+                                    </p>
+                                    <div class="links">
+                                        <a href="#">
+                                            <span
+                                                ><i
+                                                    class="fab fa-twitter"
+                                                ></i></span
+                                        ></a>
+                                        <a href="#">
+                                            <span
+                                                ><i
+                                                    class="fab fa-twitch"
+                                                ></i></span
+                                        ></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,43 @@
+.modal-content {
+    background-color: var(--bg-secondary);
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-body img {
+    padding: 1rem;
+}
+
+.btn-close {
+    filter: var(--btn-close);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.specs {
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.links a:first-child {
+    margin-right: 1rem;
+}
+
+.links span {
+    font-size: 2rem;
+    color: var(--social);
+
+}
+.links span:hover {
+    color: var(--social-hover);
+}
