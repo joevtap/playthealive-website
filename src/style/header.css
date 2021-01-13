@@ -15,6 +15,7 @@ header nav .nav-items {
     align-items: center;
     list-style: none;
     font-size: 1.2rem;
+    margin: 0;
 }
 
 header nav .logo {
@@ -22,6 +23,7 @@ header nav .logo {
 }
 
 header nav .nav-items li a {
+    align-items: center;
     text-decoration: none;
     display: block;
     cursor: pointer;
