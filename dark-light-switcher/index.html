@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=, initial-scale=1.0" />
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="switch.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Light/Dark mode</h1>
+            <div class="toggle-container">
+                <label class="switch" for="checkbox">
+                    <input type="checkbox" name="theme" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, recusandae aperiam unde, incidunt alias ratione quo
+                inventore dolores error nisi aliquid quam? Repellat obcaecati
+                rem corrupti, possimus adipisci corporis unde?
+            </p>
+        </div>
+
+        <script>
+            let checkbox = document.querySelector("input[name=theme");
+
+            checkbox.addEventListener("change", function () {
+                if (this.checked) {
+                    trans();
+                    document.documentElement.setAttribute("data-theme", "dark");
+                } else {
+                    trans();
+                    document.documentElement.setAttribute(
+                        "data-theme",
+                        "light"
+                    );
+                }
+            });
+
+            let trans = () => {
+                document.documentElement.classList.add("transition");
+                window.setTimeout(() => {
+                    document.documentElement.classList.remove("transition");
+                }, 1000);
+            };
+        </script>
+    </body>
+</html>
