@@ -59,6 +59,11 @@ h1, h2, h3, p, button, a {
     font-family: 'Work Sans', sans-serif;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body {
     color: var(--color-text);
     background-color: var(--bg-primary);
@@ -105,4 +110,9 @@ html.transition *:after {
     -o-ransition-delay: 0 !important;
     -webkit-transition-delay: 0 !important;
     -moz-transition-delay: 0 !important;
+}
+
+.place-holder {
+    height: 100vh;
+    background-color: blue;
 }

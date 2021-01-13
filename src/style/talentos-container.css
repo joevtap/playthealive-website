@@ -3,3 +3,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.talentos .heading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

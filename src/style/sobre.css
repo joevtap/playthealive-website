@@ -1,0 +1,18 @@
+.sobre .container-fluid {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: auto;
+    grid-template-areas: "logo content";
+}
+
+.sobre .container-fluid img {
+    max-width: 400px;
+}
+
+.sobre-text {
+    grid-area: content;
+}
+
+.sobre p {
+    font-size: 1.1rem;
+}
