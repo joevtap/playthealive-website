@@ -30,6 +30,9 @@ html {
     --nav-line: #0000005b;
     --btn-close: none;
     --color-card: #ffffff;
+    --heading-white: #ffffff;
+    --header-button: #f26d7d;
+    --header-button-hover: #f54c5f;
 }
 
 html[data-theme="dark"] {
@@ -47,6 +50,9 @@ html[data-theme="dark"] {
     --nav-line: #4a4f57;
     --btn-close: invert(1) grayscale(100%) brightness(200%);
     --color-card: #393e46;
+    --heading-white: #ffffff;
+    --header-button: #b761f8;
+    --header-button-hover: #9030d9;
 }
 
 h1, h2, h3, p, button, a {
@@ -57,6 +63,7 @@ body {
     color: var(--color-text);
     background-color: var(--bg-primary);
     font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .talentos {
@@ -67,10 +74,16 @@ body {
 
 h1 {
     font-size: 4rem;
+    color: var(--color-text);
 }
 
 h2 {
     font-size: 2.5rem;
+    color: var(--color-text);
+}
+
+p {
+    color: var(--color-text);
 }
 
 .heading {

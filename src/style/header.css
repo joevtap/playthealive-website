@@ -1,5 +1,9 @@
 header {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header nav {
@@ -8,6 +12,12 @@ header nav {
     justify-content: space-between;
     box-shadow: 1px 0 3px var(--nav-line);
     height: 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    background-color: var(--bg-primary);
+    z-index: 2;
 }
 
 header nav .nav-items {
@@ -35,4 +45,48 @@ header nav .nav-items li a {
 
 header nav .nav-items li a:hover {
     color: var(--color-nav);
+}
+
+.heading-white {
+    color: var(--heading-white);
+    text-shadow: 1px 1px 2px black;
+}
+
+.fullscreen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-video video {
+    min-width: 100vw;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.header-content {
+    z-index: 2;
+}
+
+header .btn-primary {
+    margin-top: 1rem;
+    background: var(--header-button);
+    border: none;
+}
+
+header .btn-primary:hover {
+    background: var(--header-button-hover);
 }
