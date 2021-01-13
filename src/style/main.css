@@ -25,6 +25,9 @@ html {
     --pink-medium: #f8b4bc;
     --pink-light: #fcdade;
     --color-nav: #f26d7d;
+    --go-top: #f26d7d;
+    --go-top-hover: #f8b4bc;
+    --nav-line: #0000005b;
 }
 
 html[data-theme="dark"] {
@@ -35,6 +38,9 @@ html[data-theme="dark"] {
     --color-headings: #9030d9;
     --color-text: #ffffff;
     --color-nav: #9030d9;
+    --go-top: #9030d9;
+    --go-top-hover: #b761f8;
+    --nav-line: #4a4f57;
 }
 
 body {
