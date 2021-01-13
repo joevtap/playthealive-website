@@ -12,7 +12,8 @@
 }
 
 .modal-body img {
-    padding: 2rem;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .btn-close {
@@ -47,13 +48,17 @@
 }
 
 .morphilus img {
-    min-width: 200px;
+    align-self: center;
 }
 
 .izuwumi img {
-    min-width: 200px;
+    align-self: center;
 }
 
 .purin img {
-    min-width: 230px;
+   align-self: center;
+} 
+
+.oceane img {
+    align-self: center;
 }
