@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="pt-br" data-theme="light">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,6 +20,10 @@
         <link rel="stylesheet" href="style/card-talentos.css" />
         <link rel="stylesheet" href="style/talentos-container.css" />
         <link rel="stylesheet" href="style/sobre.css" />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
 
         <!-- scripts -->
         <script
@@ -35,7 +39,7 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
             defer
         ></script>
-        <!-- <script src="smoothscroll.js" defer></script> -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="themeswitcher.js" defer></script>
         <script src="go-top.js" defer></script>
     </head>
@@ -65,14 +69,24 @@
                 </ul>
             </nav>
             <div class="fullscreen-video">
-                <video src="./vid/background.mp4" autoplay="true" loop="true"></video>
+                <video
+                    src="./vid/background.mp4"
+                    autoplay="true"
+                    loop="true"
+                ></video>
             </div>
             <div class="header-overlay"></div>
             <h2 class="heading header-content heading-white">
                 A primeira agência de idols virtuais no Brasil
             </h2>
-            <h1 class="heading header-content heading-white">"Play The aLive"</h1>
-            <a href="https://www.youtube.com/watch?v=L7WcsF1ZiQQ&t=4s" class="btn btn-primary btn-lg header-content">Assista ao vídeo</a>
+            <h1 class="heading header-content heading-white">
+                "Play The aLive"
+            </h1>
+            <a
+                href="https://www.youtube.com/watch?v=L7WcsF1ZiQQ&t=4s"
+                class="btn btn-primary btn-lg header-content"
+                >Assista ao vídeo</a
+            >
         </header>
         <main>
             <a href="#home" id="goTop" title="Go to top"
@@ -97,7 +111,7 @@
             </a>
             <section class="talentos" id="talentos">
                 <h2 class="heading">Nossos Talentos</h2>
-                <div class="container-fluid">
+                <div  data-aos="fade-up" class="container-fluid">
                     <!-- Mayu -->
                     <div
                         class="card shadow p-3 mb-5 rounded"
@@ -522,19 +536,33 @@
             </section>
             <section id="sobre" class="sobre">
                 <div class="container-fluid">
-                    <img src="./img/aLiveGrafitti-1536x1167.png" alt="alivelogo">
-                    <div class="sobre-text">
+                    <img
+                        data-aos="flip-up"
+                        data-aos-delay="200"
+                        src="./img/aLiveGrafitti-1536x1167.png"
+                        alt="alivelogo"
+                    />
+                    <div  data-aos="fade-left" class="sobre-text">
                         <h2 class="heading">Sobre</h2>
-                        <p class="lh-base text-wrap text-start">aLive é a primeira agência de idols virtuais no Brasil, cujo foco é o crescimento de seus talentos para espalhar por todo o nosso país, e também pelo mundo, essa cultura que vem se manifestando no ramo de entretenimento digital. Criando, assim, uma comunidade repleta de histórias no querido e já amado por muitos brasileiros, universo de vtubers!</p>
+                        <p class="lh-base text-wrap text-start">
+                            aLive é a primeira agência de idols virtuais no
+                            Brasil, cujo foco é o crescimento de seus talentos
+                            para espalhar por todo o nosso país, e também pelo
+                            mundo, essa cultura que vem se manifestando no ramo
+                            de entretenimento digital. Criando, assim, uma
+                            comunidade repleta de histórias no querido e já
+                            amado por muitos brasileiros, universo de vtubers!
+                        </p>
                     </div>
                 </div>
             </section>
             <section id="contato" class="contato">
-                <div class="place-holder">
-                    placeholder
-                </div>
+                <div class="place-holder">placeholder</div>
             </section>
         </main>
         <footer></footer>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
