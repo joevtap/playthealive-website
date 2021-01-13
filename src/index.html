@@ -12,6 +12,7 @@
             integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
             crossorigin="anonymous"
         />
+
         <link rel="stylesheet" href="style/main.css" />
         <link rel="stylesheet" href="style/header.css" />
         <link rel="stylesheet" href="style/switch.css" />
@@ -20,12 +21,9 @@
         <link rel="stylesheet" href="style/card-talentos.css" />
         <link rel="stylesheet" href="style/talentos-container.css" />
         <link rel="stylesheet" href="style/sobre.css" />
-        <link
-            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-            rel="stylesheet"
-        />
 
         <!-- scripts -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
         <script
             src="https://kit.fontawesome.com/2c0f90d472.js"
             crossorigin="anonymous"
@@ -39,7 +37,6 @@
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
             defer
         ></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="themeswitcher.js" defer></script>
         <script src="go-top.js" defer></script>
     </head>
@@ -111,7 +108,7 @@
             </a>
             <section class="talentos" id="talentos">
                 <h2 class="heading">Nossos Talentos</h2>
-                <div  data-aos="fade-up" class="container-fluid">
+                <div class="container-fluid">
                     <!-- Mayu -->
                     <div
                         class="card shadow p-3 mb-5 rounded"
@@ -537,12 +534,12 @@
             <section id="sobre" class="sobre">
                 <div class="container-fluid">
                     <img
-                        data-aos="flip-up"
-                        data-aos-delay="200"
+                    
+                    
                         src="./img/aLiveGrafitti-1536x1167.png"
                         alt="alivelogo"
                     />
-                    <div  data-aos="fade-left" class="sobre-text">
+                    <div class="sobre-text">
                         <h2 class="heading">Sobre</h2>
                         <p class="lh-base text-wrap text-start">
                             aLive é a primeira agência de idols virtuais no
@@ -561,8 +558,5 @@
             </section>
         </main>
         <footer></footer>
-        <script>
-            AOS.init();
-        </script>
     </body>
 </html>
