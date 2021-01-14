@@ -30,9 +30,12 @@ html {
     --nav-line: #0000005b;
     --btn-close: none;
     --color-card: #ffffff;
+    --color-form: #ffffff;
     --heading-white: #ffffff;
     --header-button: #f26d7d;
+    --contato-button: #f26d7d;
     --header-button-hover: #f54c5f;
+    --contato-button-hover: #f54c5f;
 }
 
 html[data-theme="dark"] {
@@ -50,9 +53,12 @@ html[data-theme="dark"] {
     --nav-line: #4a4f57;
     --btn-close: invert(1) grayscale(100%) brightness(200%);
     --color-card: #393e46;
+    --color-form: #393e46;
     --heading-white: #ffffff;
     --header-button: #b761f8;
+    --contato-button: #b761f8;
     --header-button-hover: #9030d9;
+    --contato-button-hover: #9030d9;
 }
 
 h1, h2, h3, p, button, a {
@@ -72,6 +78,12 @@ body {
 }
 
 .talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,9 +122,4 @@ html.transition *:after {
     -o-ransition-delay: 0 !important;
     -webkit-transition-delay: 0 !important;
     -moz-transition-delay: 0 !important;
-}
-
-.place-holder {
-    height: 100vh;
-    background-color: blue;
 }

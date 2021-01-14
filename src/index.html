@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="style/card-talentos.css" />
         <link rel="stylesheet" href="style/talentos-container.css" />
         <link rel="stylesheet" href="style/sobre.css" />
+        <link rel="stylesheet" href="style/contato.css" />
 
         <!-- scripts -->
         <script
@@ -42,7 +43,7 @@
         <header id="home">
             <nav>
                 <a href="index.html" class="logo">
-                    <img src="img\alivelogo.png" alt="logo" />
+                    <img src="./img/alivelogo.png" alt="logo" />
                 </a>
                 <ul class="nav-items">
                     <li>
@@ -113,7 +114,7 @@
                         data-bs-toggle="modal"
                         data-bs-target="#talentoModalMayu"
                     >
-                        <img src="img/mayuBustosqr.png" alt="mayu" />
+                        <img src="./img/mayuBustosqr.png" alt="mayu" />
                         <p>Mayu Mitsubi</p>
                     </div>
                     <div
@@ -137,7 +138,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img
-                                        src="img/mayu1500sqr.png"
+                                        src="./img/mayu1500sqr.png"
                                         alt="mayu"
                                     />
                                     <div class="description">
@@ -180,7 +181,7 @@
                         data-bs-toggle="modal"
                         data-bs-target="#talentoModalOceane"
                     >
-                        <img src="img/oceaneBustosqr.png" alt="oceane" />
+                        <img src="./img/oceaneBustosqr.png" alt="oceane" />
                         <p>Oceane Korin</p>
                     </div>
                     <div
@@ -204,7 +205,7 @@
                                 </div>
                                 <div class="modal-body oceane">
                                     <img
-                                        src="img/oceane1500sqr.png"
+                                        src="./img/oceane1500sqr.png"
                                         alt="oceane"
                                     />
                                     <div class="description">
@@ -251,7 +252,7 @@
                         data-bs-toggle="modal"
                         data-bs-target="#talentoModalMarin"
                     >
-                        <img src="img/marinBustosqr.png" alt="marin" />
+                        <img src="./img/marinBustosqr.png" alt="marin" />
                         <p>Marin Purin</p>
                     </div>
                     <div
@@ -275,7 +276,7 @@
                                 </div>
                                 <div class="modal-body purin">
                                     <img
-                                        src="img/marin1500sqr.png"
+                                        src="./img/marin1500sqr.png"
                                         alt="marin"
                                     />
                                     <div class="description">
@@ -323,7 +324,10 @@
                         data-bs-toggle="modal"
                         data-bs-target="#talentoModalMorphilus"
                     >
-                        <img src="img/morphilusBustosqr.png" alt="morphilus" />
+                        <img
+                            src="./img/morphilusBustosqr.png"
+                            alt="morphilus"
+                        />
                         <p>Morphilus</p>
                     </div>
                     <div
@@ -347,7 +351,7 @@
                                 </div>
                                 <div class="modal-body morphilus">
                                     <img
-                                        src="img/morphilus1500sqr.png"
+                                        src="./img/morphilus1500sqr.png"
                                         alt="morphilus"
                                     />
                                     <div class="description">
@@ -397,7 +401,7 @@
                         data-bs-toggle="modal"
                         data-bs-target="#talentoModalIzuwumi"
                     >
-                        <img src="img/izuwumiBustosqr.png" alt="Izuwumi" />
+                        <img src="./img/izuwumiBustosqr.png" alt="Izuwumi" />
                         <p>Izuwumi</p>
                     </div>
                     <div
@@ -421,7 +425,7 @@
                                 </div>
                                 <div class="modal-body izuwumi">
                                     <img
-                                        src="img/izuwumi1500sqr.png"
+                                        src="./img/izuwumi1500sqr.png"
                                         alt="Izuwumi"
                                     />
                                     <div class="description">
@@ -472,7 +476,7 @@
                         data-bs-toggle="modal"
                         data-bs-target="#talentoModalHeiwa"
                     >
-                        <img src="img/heiwaBustosqr.png" alt="heiwa" />
+                        <img src="./img/heiwaBustosqr.png" alt="heiwa" />
                         <p>Okami Heiwa</p>
                     </div>
                     <div
@@ -495,7 +499,10 @@
                                     ></button>
                                 </div>
                                 <div class="modal-body heiwa">
-                                    <img src="img/heiwa1500sqr.png" alt="heiwa" />
+                                    <img
+                                        src="./img/heiwa1500sqr.png"
+                                        alt="heiwa"
+                                    />
                                     <div class="description">
                                         <h2>Okami Heiwa</h2>
                                         <p class="specs">Altura: 186cm</p>
@@ -552,13 +559,24 @@
                 </div>
             </section>
             <section id="contato" class="contato">
-                <div class="place-holder">placeholder</div>
+                <h2 class="heading">Entre em Contato</h2>
+                <div class="contato-container">
+                    <form action="">
+                        <fieldset>
+                            <input type="text" id="fname" name="fname" placeholder="Nome" required/>
+                            <input type="text" id="lname" name="lname" placeholder="Sobrenome" required/>
+                        </fieldset>
+                        <input type="text" id="email" name="email" placeholder="Seu melhor e-mail" required/>
+                        <textarea id="msg" name="msg" rows="4" cols="50" placeholder="Sua mensagem" required></textarea>
+                        <input class="btn btn-primary btn-lg" type="submit" value="Enviar">
+                    </form>
+                </div>
             </section>
         </main>
         <footer></footer>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          AOS.init();
+            AOS.init();
         </script>
     </body>
 </html>
