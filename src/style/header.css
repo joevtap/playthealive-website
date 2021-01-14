@@ -64,7 +64,6 @@ header nav .nav-items li a:hover {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-
 }
 
 .fullscreen-video video {
@@ -95,4 +94,13 @@ header .btn-primary {
 
 header .btn-primary:hover {
     background: var(--header-button-hover);
+}
+
+.theme-icon {
+    fill: var(--theme-icon);
+    transform: translateX(1rem);
+}
+
+.coloricon {
+    fill: var(--theme-icon);
 }

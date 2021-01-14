@@ -41,6 +41,7 @@ html {
     --contato-button-hover: #f54c5f;
     --joevtap: #f26d7d;
     --joevtap-hover: #f54c5f;
+    --theme-icon: #f8b4bc;
 }
 
 html[data-theme="dark"] {
@@ -68,6 +69,7 @@ html[data-theme="dark"] {
     --contato-button-hover: #9030d9;
     --joevtap: #b761f8;
     --joevtap-hover: #9030d9;
+    --theme-icon: #9030d9;
 }
 
 h1, h2, h3, p, button, a {
