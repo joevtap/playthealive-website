@@ -59,6 +59,12 @@ header nav .nav-items li a:hover {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+
+    background-image: url('../img/alivebg2.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
 }
 
 .fullscreen-video video {

@@ -25,7 +25,9 @@ html {
     --pink-light: #fcdade;
     --color-nav: #f26d7d;
     --go-top: #f26d7d;
+    --mobile-menu: #f26d7d;
     --go-top-hover: #f8b4bc;
+    --mobile-menu-hover: #f8b4bc;
     --social: #f26d7d;
     --social-hover: #f8b4bc;
     --nav-line: #0000005b;
@@ -50,7 +52,9 @@ html[data-theme="dark"] {
     --color-text: #ffffff;
     --color-nav: #9030d9;
     --go-top: #b761f8;
+    --mobile-menu: #b761f8;
     --go-top-hover: #9030d9;
+    --mobile-menu-hover: #9030d9;
     --social: #b761f8;
     --social-hover: #9030d9;
     --nav-line: #4a4f57;

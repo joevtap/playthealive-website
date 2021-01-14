@@ -1,6 +1,10 @@
 const checkbox = document.querySelector("input[name=theme]");
+const menuBtn = document.querySelector(".menu-theme-btn");
 
-checkbox.addEventListener("change", function () {
+menuBtn.addEventListener("change", changeTheme);
+checkbox.addEventListener("change", changeTheme);
+
+function changeTheme() {
     if (this.checked) {
         trans();
         document.documentElement.setAttribute("data-theme", "dark");
@@ -11,7 +15,7 @@ checkbox.addEventListener("change", function () {
             "light"
         );
     }
-});
+}
 
 let trans = () => {
     document.documentElement.classList.add("transition");

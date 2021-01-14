@@ -1,0 +1,158 @@
+@media (max-width: 1000px) {
+    /* header */
+
+    .fullscreen-video video {
+        display: none;
+    }
+
+    .nav-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+    .dropdown-item {
+        background-color: var(--bg-primary);
+        color: var(--color-text);
+    }
+
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        background: var(--bg-secondary);
+        color: var(--color-text);
+    }
+
+    .dropdown-menu {
+        background-color: var(--bg-primary);
+        color: var(--color-text);
+    }
+
+    .dropdown-toggle div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--bg-primary);
+        width: 32px;
+        height: 3px;
+    }
+
+    .switch-menu {
+        margin: 0;
+        margin-left: 0.5rem;
+    }
+
+    #goTop {
+        display: none !important;
+    }
+
+    .dropdown-toggle div::after {
+        content: "";
+        position: absolute;
+        background-color: var(--bg-primary);
+        width: 32px;
+        height: 3px;
+        transform: translateY(8px);
+    }
+
+    .dropdown-toggle div::before {
+        content: "";
+        position: absolute;
+        background-color: var(--bg-primary);
+        width: 32px;
+        height: 3px;
+        transform: translateY(-9px);
+    }
+
+    .dropdown-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .nav-mobile .btn {
+        width: 50px;
+        height: 50px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        background-color: var(--mobile-menu);
+    }
+
+    .nav-mobile .btn:hover {
+        background-color: var(--mobile-menu-hover);
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header h1,
+    h2 {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    header .btn {
+        transform: scale(0.8);
+    }
+
+    /* main */
+
+    main .heading {
+        font-size: 2rem;
+    }
+
+    .modal {
+        padding: 0 !important;
+    }
+
+    .modal-content {
+        max-height: 100%;
+    }
+
+    .modal-body {
+        overflow: auto;
+    }
+
+    .modal-dialog {
+        height: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 650px) {
+    header h1,
+    h2 {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header .btn {
+        transform: scale(0.7);
+    }
+}
+
+@media (min-width: 1310px) {
+    .nav-mobile {
+        display: none;
+    }
+}

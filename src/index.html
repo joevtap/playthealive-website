@@ -25,9 +25,39 @@
         <link rel="stylesheet" href="style/sobre.css" />
         <link rel="stylesheet" href="style/contato.css" />
         <link rel="stylesheet" href="style/footer.css" />
+        <link rel="stylesheet" href="style/mobile.css" />
     </head>
     <body>
         <header id="home">
+            <div class="dropdown nav-mobile">
+                <button
+                    class="btn dropdown-toggle mobile-menu-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    <div></div>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li>
+                        <a class="dropdown-item" href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#talentos"> Talentos</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#sobre"> Sobre</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#contato"> Contato</a>
+                    </li>
+                    <label class="switch switch-menu" for="checkbox-menu">
+                        <input class="menu-theme-btn" type="checkbox" id="checkbox-menu"/>
+                        <div class="slider round"></div>
+                    </label>
+                </ul>
+            </div>
             <nav>
                 <a href="index.html" class="logo">
                     <img src="./img/alivelogo.png" alt="logo" />
@@ -608,9 +638,9 @@
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossorigin="anonymous"
         ></script>
-        <script src="themeswitcher.js" ></script>
-        <script src="go-top.js" ></script>
-        <script src="persistent-theme.js" ></script>
+        <script src="themeswitcher.js"></script>
+        <script src="go-top.js"></script>
+        <script src="persistent-theme.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();

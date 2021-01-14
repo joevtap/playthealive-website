@@ -3,9 +3,13 @@ if (currentTheme == "dark") {
   trans();
   document.documentElement.setAttribute("data-theme", "dark");
   checkbox.checked = true;
+  menuBtn.checked = true;
 }
 
-checkbox.addEventListener("change", function() {
+checkbox.addEventListener("change", persistTheme);
+menuBtn.addEventListener("change", persistTheme);
+
+function persistTheme() {
   if (this.checked) {
     trans();
     document.documentElement.setAttribute("data-theme", "dark");
@@ -22,4 +26,4 @@ checkbox.addEventListener("change", function() {
     theme = "dark";
   }
   localStorage.setItem("theme", theme);
-});
+};
