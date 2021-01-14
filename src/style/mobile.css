@@ -1,4 +1,13 @@
 @media (max-width: 1160px) {
+    html {
+        overflow-x: hidden;
+        min-width: 100vw;
+    }
+
+    body {
+        min-width: 100vw;
+    }
+
     /* header */
 
     .fullscreen-video video {
@@ -39,7 +48,6 @@
 
     .switch-menu {
         margin: 0;
-        margin-left: 0.5rem;
     }
 
     #goTop {
@@ -111,9 +119,16 @@
     .switch-menu-container {
         display: flex;
         align-items: center;
+        justify-content: center;
+        height: 3rem
     }
 
     /* main */
+    
+    main {
+        max-width: 750px;
+        margin: 0 auto;
+    }
 
     main .heading {
         font-size: 2rem;
@@ -124,7 +139,9 @@
     }
 
     .modal-content {
-        max-height: 100%;
+        max-height: 90%;
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .modal-body {
@@ -135,9 +152,17 @@
         height: 100%;
         margin: 0 auto;
     }
+
+    .sobre .container-fluid h2{
+        text-align: left;
+    }
+
+    .sobre .container-fluid img {
+        max-width: 300px;
+    }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
     header h1,
     h2 {
         text-align: center;
@@ -154,16 +179,77 @@
     header .btn {
         transform: scale(0.7);
     }
-}
 
-@media (min-width: 1310px) {
-    .nav-mobile {
-        display: none;
+    main {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .sobre .container-fluid  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 3rem;
+    }
+
+    .contato-container form fieldset {
+        flex-direction: column;
+    }
+
+    .contato-container form fieldset input {
+        max-width: 100%;
+    }
+
+    .contato-container form input, textarea {
+        width: 100%;
+    }
+
+    .contato-container {
+        max-width: 400px;
     }
 }
 
 @media (max-width: 450px) {
+
+    main {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
     .card {
         flex: 1 1 100px;
+    }
+    
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+        overflow-x: hidden;
+    }
+
+    .sobre .container-fluid {
+        padding: 0 2rem;
+    }
+
+    .contato-container {
+        max-width: 300px;
+        margin-bottom: 4rem;
+    }
+
+    .footer-container {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+@media (min-width: 1310px) {
+        .nav-mobile {
+            display: none;
+        }
     }
 }

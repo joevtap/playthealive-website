@@ -13,6 +13,14 @@ footer {
     box-shadow: -1px 0 3px var(--nav-line);
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+    text-align: center;
+}
+
 footer a {
     color: var(--joevtap);
     text-decoration: none;

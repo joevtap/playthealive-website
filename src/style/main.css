@@ -14,8 +14,9 @@ html {
     position: relative;
     scroll-behavior: smooth;
     font-family: 'Work Sans', sans-serif;
-
+    
     /* colors light*/
+    --theme-icon: #f8b4bc;
     --bg-primary: #ffffff;
     --bg-secondary: #f5f5f5;
     --color-headings: #f26d7d;
@@ -41,12 +42,12 @@ html {
     --contato-button-hover: #f54c5f;
     --joevtap: #f26d7d;
     --joevtap-hover: #f54c5f;
-    --theme-icon: #f8b4bc;
 }
 
 html[data-theme="dark"] {
 
     /* colors dark*/
+    --theme-icon: #9030d9;
     --bg-primary: #232931;
     --bg-secondary: #393e46;
     --color-headings: #b761f8;
@@ -69,7 +70,6 @@ html[data-theme="dark"] {
     --contato-button-hover: #9030d9;
     --joevtap: #b761f8;
     --joevtap-hover: #9030d9;
-    --theme-icon: #9030d9;
 }
 
 h1, h2, h3, p, button, a {
@@ -119,18 +119,4 @@ p {
     color: var(--color-headings);
     font-weight: bold;
     
-}
-
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-    transition: all 750ms !important;
-    -o-transition: all 750ms !important;
-    -webkit-transition: all 750ms !important;
-    -moz-transition: all 750ms !important;
-    transition-delay: 0 !important;
-    -o-ransition-delay: 0 !important;
-    -webkit-transition-delay: 0 !important;
-    -moz-transition-delay: 0 !important;
 }

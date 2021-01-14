@@ -60,7 +60,7 @@ header nav .nav-items li a:hover {
     height: 100vh;
     overflow: hidden;
 
-    background-image: url('../img/alivebg2.png');
+    background-image: url('../img/alivebg2.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -94,11 +94,6 @@ header .btn-primary {
 
 header .btn-primary:hover {
     background: var(--header-button-hover);
-}
-
-.theme-icon {
-    fill: var(--theme-icon);
-    transform: translateX(1rem);
 }
 
 .coloricon {
