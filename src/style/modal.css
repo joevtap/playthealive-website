@@ -34,6 +34,10 @@
     margin-right: 1rem;
 }
 
+.links a span {
+    transition: 300ms;
+}
+
 .links a:first-child {
     margin-right: 1rem;
 }
