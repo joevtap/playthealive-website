@@ -117,8 +117,9 @@
             </nav>
             <div class="fullscreen-video">
                 <video
+                    poster="./img/alivebg2.png"
+                    id="backgroundVid"
                     src="./vid/background.mp4"
-                    autoplay="true"
                     loop="true"
                 ></video>
             </div>
@@ -678,6 +679,9 @@
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
+            setTimeout(function () {
+                document.querySelector("#backgroundVid").play();
+            }, 5000);
         </script>
     </body>
 </html>
