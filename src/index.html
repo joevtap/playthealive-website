@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="style/talentos-container.css" />
         <link rel="stylesheet" href="style/sobre.css" />
         <link rel="stylesheet" href="style/contato.css" />
+        <link rel="stylesheet" href="style/footer.css" />
 
         <!-- scripts -->
         <script
@@ -558,22 +559,57 @@
                     </div>
                 </div>
             </section>
-            <section id="contato" class="contato">
+            <section id="contato" class="contato" data-aos="flip-up">
                 <h2 class="heading">Entre em Contato</h2>
-                <div class="contato-container">
+                <div class="contato-container" >
                     <form action="">
                         <fieldset>
-                            <input type="text" id="fname" name="fname" placeholder="Nome" required/>
-                            <input type="text" id="lname" name="lname" placeholder="Sobrenome" required/>
+                            <input
+                                type="text"
+                                id="fname"
+                                name="fname"
+                                placeholder="Nome"
+                                required
+                            />
+                            <input
+                                type="text"
+                                id="lname"
+                                name="lname"
+                                placeholder="Sobrenome"
+                                required
+                            />
                         </fieldset>
-                        <input type="text" id="email" name="email" placeholder="Seu melhor e-mail" required/>
-                        <textarea id="msg" name="msg" rows="4" cols="50" placeholder="Sua mensagem" required></textarea>
-                        <input class="btn btn-primary btn-lg" type="submit" value="Enviar">
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Seu melhor e-mail"
+                            required
+                        />
+                        <textarea
+                            id="msg"
+                            name="msg"
+                            rows="4"
+                            cols="50"
+                            placeholder="Sua mensagem"
+                            required
+                        ></textarea>
+                        <input
+                            class="btn btn-primary btn-lg"
+                            type="submit"
+                            value="Enviar"
+                        />
                     </form>
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <p class="author">
+                Feito com 💜 por
+                <a href="https://github.com/joevtap" target="blank">@joevtap</a>
+            </p>
+            <p class="copyright">&copy 2021 aLive & @joevtap | Todos os direitos reservados</p>
+        </footer>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();

@@ -1,0 +1,24 @@
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bg-primary);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 0 0;
+    box-shadow: -1px 0 3px var(--nav-line);
+}
+
+footer a {
+    color: var(--joevtap);
+    text-decoration: none;
+    transition: 200ms;
+}
+
+footer a:hover {
+    color: var(--joevtap-hover);
+}
