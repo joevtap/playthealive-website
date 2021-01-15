@@ -203,16 +203,13 @@
         flex-direction: column;
     }
 
-    .contato-container form fieldset input {
-        max-width: 100%;
-    }
-
-    .contato-container form input, textarea {
-        width: 100%;
-    }
-
     .contato-container {
         max-width: 400px;
+    }
+
+    .contato-container form fieldset input {
+        max-width: 100%;
+        width: initial;
     }
 }
 
@@ -251,7 +248,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
 
 @media (min-width: 1310px) {
         .nav-mobile {
