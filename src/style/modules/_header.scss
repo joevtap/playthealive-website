@@ -6,7 +6,7 @@ header {
     justify-content: center;
 }
 
-header nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,7 +20,7 @@ header nav {
     z-index: 99;
 }
 
-header nav .nav-items {
+.nav-items {
     display: flex;
     align-items: center;
     list-style: none;
@@ -28,29 +28,29 @@ header nav .nav-items {
     margin: 0;
 }
 
-header nav .logo {
+.logo {
     margin-left: 2rem;
 }
 
-header nav .nav-items li a {
-    align-items: center;
-    text-decoration: none;
-    display: block;
-    cursor: pointer;
-    padding: 1rem;
-    margin: 0 .5rem;
-    transition: color 300ms;
-    color: var(--color-text);
+.nav-items {
+    li {
+        a {
+            align-items: center;
+            text-decoration: none;
+            display: block;
+            cursor: pointer;
+            padding: 1rem;
+            margin: 0 .5rem;
+            transition: color 300ms;
+            color: var(--color-text);
+        
+            &:hover {
+                color: var(--color-nav);
+            }
+        }
+    }
 }
 
-header nav .nav-items li a:hover {
-    color: var(--color-nav);
-}
-
-.heading-white {
-    color: var(--heading-white);
-    text-shadow: 1px 1px 2px black;
-}
 
 .fullscreen-video {
     position: absolute;
@@ -66,10 +66,12 @@ header nav .nav-items li a:hover {
     background-size: cover;
 }
 
-.fullscreen-video video {
-    min-width: 100vw;
-    min-height: 100vh;
-    max-width: 100%;
+.fullscreen-video {
+    video {
+        min-width: 100vw;
+        min-height: 100vh;
+        max-width: 100%;
+    }
 }
 
 .header-overlay {
@@ -86,14 +88,16 @@ header nav .nav-items li a:hover {
     z-index: 2;
 }
 
-header .btn-primary {
-    margin-top: 1rem;
-    background: var(--header-button);
-    border: none;
-}
-
-header .btn-primary:hover {
-    background: var(--header-button-hover);
+header {
+    .btn-primary {
+        margin-top: 1rem;
+        background: var(--header-button);
+        border: none;
+        
+        &:hover {
+            background: var(--header-button-hover);
+        }
+    }
 }
 
 .coloricon {
