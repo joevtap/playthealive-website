@@ -1,0 +1,53 @@
+.contato-container {
+    min-height: 70vh;
+    margin-top: 2rem;
+}
+
+.contato-container {
+    input[type="text"], textarea {
+        margin: .3rem;
+        border: none;
+        border-radius: .2rem;
+        padding: .5rem;
+        background-color: var(--color-form);
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+        color: var(--color-text);
+        resize: none;
+    }
+}
+
+.contato-container {
+    input[type="submit"] {
+        border: none;
+        border-radius: .2rem;
+        padding: .5rem;
+        margin: .3rem;
+        background: var(--contato-button);
+    
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+        
+        &:hover {
+            background: var(--contato-button-hover);
+        }
+    }
+}
+
+
+
+.contato-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-container form fieldset {
+    display: flex;
+}
+
+.contato-container form fieldset input {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contato .heading {
+    margin-top: 4rem;
+}

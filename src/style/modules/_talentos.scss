@@ -1,0 +1,86 @@
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.talentos {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talentos {
+    .heading {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.card {
+    background-color: transparent;
+    display: flex;
+    flex: 0 1 250px;
+    margin: 2rem;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    transition: 200ms;
+}
+
+.img-bg {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card {
+    img {
+        max-width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+    }
+}
+
+.card {
+    p {
+        text-align: center;
+        margin: 1rem 0; 
+        font-size: 1.3rem;
+        color: var(--color-text-card);
+        letter-spacing: .1rem;
+        font-weight: 500;
+    }
+}
+
+.card-links {
+    span {
+        color: var(--color-text-card);
+
+        &:hover {
+            color: var(--color-text-card-hover);
+        }
+    }
+}
+
+.pink {
+    background-color: #ffd4f1;
+}
+
+.red {
+    background-color: #ff8f90;
+}
+
+.orange {
+    background-color: #face8c;
+}
+
+.blue {
+    background-color: #c2d7f3;
+}
+
+.purple {
+    background-color: #c29bdb;
+}
