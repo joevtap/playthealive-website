@@ -3,6 +3,7 @@
 ## Technologies used in this project:
 - HTML
 - CSS
+- Sass
 - Javascript
 - Bootstrap
 - Animate On Scroll library
