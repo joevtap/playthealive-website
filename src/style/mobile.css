@@ -1,0 +1,271 @@
+@media (max-width: 1160px) {
+    html {
+        overflow-x: hidden;
+        min-width: 100vw;
+    }
+
+    body {
+        min-width: 100vw;
+    }
+
+    /* header */
+
+    .fullscreen-video video {
+        display: none;
+    }
+
+    .nav-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+    .dropdown-item {
+        background-color: var(--bg-primary);
+        color: var(--color-text);
+    }
+
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        background: var(--bg-secondary);
+        color: var(--color-text);
+    }
+
+    .dropdown-menu {
+        background-color: var(--bg-primary);
+        color: var(--color-text);
+    }
+
+    .dropdown-toggle div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--bg-primary);
+        width: 32px;
+        height: 3px;
+    }
+
+    .switch-menu {
+        margin: 0;
+    }
+
+    #goTop {
+        display: none !important;
+    }
+
+    .dropdown-toggle div::after {
+        content: "";
+        position: absolute;
+        background-color: var(--bg-primary);
+        width: 32px;
+        height: 3px;
+        transform: translateY(8px);
+    }
+
+    .dropdown-toggle div::before {
+        content: "";
+        position: absolute;
+        background-color: var(--bg-primary);
+        width: 32px;
+        height: 3px;
+        transform: translateY(-9px);
+    }
+
+    .dropdown-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .nav-mobile .btn {
+        width: 50px;
+        height: 50px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        background-color: var(--mobile-menu);
+    }
+
+    .nav-mobile .btn:hover {
+        background-color: var(--mobile-menu-hover);
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header h1,
+    h2 {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    header .btn {
+        transform: scale(0.8);
+    }
+
+    .switch-menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem
+    }
+
+    /* main */
+    
+    main {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    main .heading {
+        font-size: 2rem;
+    }
+
+    .modal {
+        padding: 0 !important;
+    }
+
+    .modal-content {
+        max-height: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .modal-body {
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+        overflow-x: hidden;
+    }
+
+    .modal-dialog {
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .sobre .container-fluid h2{
+        text-align: left;
+    }
+
+    .sobre .container-fluid img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1,
+    h2 {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header .btn {
+        transform: scale(0.7);
+    }
+
+    main {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .sobre .container-fluid  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 3rem;
+    }
+
+    .contato-container form fieldset {
+        flex-direction: column;
+    }
+
+    .contato-container {
+        max-width: 400px;
+    }
+
+    .contato-container form fieldset input {
+        max-width: 100%;
+        width: initial;
+    }
+}
+
+@media (max-width: 450px) {
+
+    main {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .card {
+        flex: 1 1 100px;
+    }
+    
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+        overflow-x: hidden;
+    }
+
+    .sobre .container-fluid {
+        padding: 0 2rem;
+    }
+
+    .contato-container {
+        max-width: 300px;
+        margin-bottom: 4rem;
+    }
+
+    .footer-container {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card p {
+        font-size: 1rem;
+        margin: .5rem 0;
+    }
+
+    .card-links span{
+        font-size: 1.2rem;
+    }
+
+    .contato-container {
+        min-height: 60vh;
+        margin-bottom: 8rem;
+    }
+
+@media (min-width: 1310px) {
+        .nav-mobile {
+            display: none;
+        }
+    }
+}

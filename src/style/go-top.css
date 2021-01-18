@@ -1,0 +1,17 @@
+#goTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
+
+#goTop svg {
+    width: 3rem;
+    fill: var(--go-top);
+    transition: 300ms;
+}
+  
+#goTop svg:hover {
+    fill: var(--go-top-hover);
+}
