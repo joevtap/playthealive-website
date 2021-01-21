@@ -1,3 +1,5 @@
+![pagepreview](pagepreview.gif)
+
 # A website for aLive - Vtuber agency  
 
 ## Technologies used in this project:
