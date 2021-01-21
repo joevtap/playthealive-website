@@ -1,5 +1,3 @@
-![banner](alivebg2.jpg)
-
 # A website for aLive - Vtuber agency  
 
 ## Technologies used in this project:
