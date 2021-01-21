@@ -1,4 +1,4 @@
-![pagepreview](pagepreview.gif)
+![banner](alivebg2.jpg)
 
 # A website for aLive - Vtuber agency  
 
@@ -13,6 +13,13 @@
 ## About
 
 aLive is the first virtual idol agency in Brazil, whose focus is the growth of their talents that will spread throughout the country, and also around the world, the growing culture of vtubers.
+
+## Preview
+### Desktop
+![pagepreview](pagepreview.gif)
+
+### Mobile
+![pagepreviewmobile](pagepreviewmobile.gif)
 
 ## Links
 
